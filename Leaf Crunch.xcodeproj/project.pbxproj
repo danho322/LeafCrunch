@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D424DF9316AE28A000BF69AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D424DF9216AE28A000BF69AE /* UIKit.framework */; };
+		D424DF9516AE28A000BF69AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D424DF9416AE28A000BF69AE /* Foundation.framework */; };
+		D424DF9716AE28A000BF69AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D424DF9616AE28A000BF69AE /* CoreGraphics.framework */; };
+		D424DF9D16AE28A000BF69AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D424DF9B16AE28A000BF69AE /* InfoPlist.strings */; };
+		D424DF9F16AE28A000BF69AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D424DF9E16AE28A000BF69AE /* main.m */; };
+		D424DFA316AE28A000BF69AE /* WAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D424DFA216AE28A000BF69AE /* WAAppDelegate.m */; };
+		D424DFA516AE28A000BF69AE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D424DFA416AE28A000BF69AE /* Default.png */; };
+		D424DFA716AE28A000BF69AE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424DFA616AE28A000BF69AE /* Default@2x.png */; };
+		D424DFA916AE28A000BF69AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D424DFA816AE28A000BF69AE /* Default-568h@2x.png */; };
+		D424DFAC16AE28A000BF69AE /* WAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D424DFAB16AE28A000BF69AE /* WAViewController.m */; };
+		D424DFC416AE291400BF69AE /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D424DFC316AE291400BF69AE /* Util.m */; };
+		D424DFC816AE2C5200BF69AE /* GroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = D424DFC716AE2C5200BF69AE /* GroundView.m */; };
+		D424DFCB16AE2E3F00BF69AE /* LeafView.m in Sources */ = {isa = PBXBuildFile; fileRef = D424DFCA16AE2E3F00BF69AE /* LeafView.m */; };
+		D424DFCE16AE2FC200BF69AE /* LeafData.m in Sources */ = {isa = PBXBuildFile; fileRef = D424DFCD16AE2FC200BF69AE /* LeafData.m */; };
+		D424DFD516AE546D00BF69AE /* leaf.png in Resources */ = {isa = PBXBuildFile; fileRef = D424DFD416AE546D00BF69AE /* leaf.png */; };
+		D424DFD816AE54A600BF69AE /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D424DFD716AE54A600BF69AE /* ImageManager.m */; };
+		D49138FF16B272110064AA32 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D49138FE16B272110064AA32 /* icon.png */; };
+		D491390216B276F20064AA32 /* leaf2.png in Resources */ = {isa = PBXBuildFile; fileRef = D491390116B276F20064AA32 /* leaf2.png */; };
+		D4E0ABAE16B0E35300037A13 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E0ABAD16B0E35300037A13 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D424DF8E16AE28A000BF69AE /* Leaf Crunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leaf Crunch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D424DF9216AE28A000BF69AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D424DF9416AE28A000BF69AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D424DF9616AE28A000BF69AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D424DF9A16AE28A000BF69AE /* Leaf Crunch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Leaf Crunch-Info.plist"; sourceTree = "<group>"; };
+		D424DF9C16AE28A000BF69AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D424DF9E16AE28A000BF69AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D424DFA016AE28A000BF69AE /* Leaf Crunch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Leaf Crunch-Prefix.pch"; sourceTree = "<group>"; };
+		D424DFA116AE28A000BF69AE /* WAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAAppDelegate.h; sourceTree = "<group>"; };
+		D424DFA216AE28A000BF69AE /* WAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAAppDelegate.m; sourceTree = "<group>"; };
+		D424DFA416AE28A000BF69AE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D424DFA616AE28A000BF69AE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D424DFA816AE28A000BF69AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D424DFAA16AE28A000BF69AE /* WAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAViewController.h; sourceTree = "<group>"; };
+		D424DFAB16AE28A000BF69AE /* WAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAViewController.m; sourceTree = "<group>"; };
+		D424DFC216AE291400BF69AE /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		D424DFC316AE291400BF69AE /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		D424DFC616AE2C5200BF69AE /* GroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroundView.h; sourceTree = "<group>"; };
+		D424DFC716AE2C5200BF69AE /* GroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroundView.m; sourceTree = "<group>"; };
+		D424DFC916AE2E3F00BF69AE /* LeafView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeafView.h; sourceTree = "<group>"; };
+		D424DFCA16AE2E3F00BF69AE /* LeafView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeafView.m; sourceTree = "<group>"; };
+		D424DFCC16AE2FC200BF69AE /* LeafData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeafData.h; sourceTree = "<group>"; };
+		D424DFCD16AE2FC200BF69AE /* LeafData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeafData.m; sourceTree = "<group>"; };
+		D424DFD416AE546D00BF69AE /* leaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaf.png; sourceTree = "<group>"; };
+		D424DFD616AE54A600BF69AE /* ImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManager.h; sourceTree = "<group>"; };
+		D424DFD716AE54A600BF69AE /* ImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManager.m; sourceTree = "<group>"; };
+		D49138FE16B272110064AA32 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D491390116B276F20064AA32 /* leaf2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaf2.png; sourceTree = "<group>"; };
+		D4E0ABAD16B0E35300037A13 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D424DF8B16AE28A000BF69AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E0ABAE16B0E35300037A13 /* QuartzCore.framework in Frameworks */,
+				D424DF9316AE28A000BF69AE /* UIKit.framework in Frameworks */,
+				D424DF9516AE28A000BF69AE /* Foundation.framework in Frameworks */,
+				D424DF9716AE28A000BF69AE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D424DF8316AE28A000BF69AE = {
+			isa = PBXGroup;
+			children = (
+				D4E0ABAD16B0E35300037A13 /* QuartzCore.framework */,
+				D424DFD316AE546300BF69AE /* Resources */,
+				D424DF9816AE28A000BF69AE /* Leaf Crunch */,
+				D424DF9116AE28A000BF69AE /* Frameworks */,
+				D424DF8F16AE28A000BF69AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D424DF8F16AE28A000BF69AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D424DF8E16AE28A000BF69AE /* Leaf Crunch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D424DF9116AE28A000BF69AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D424DF9216AE28A000BF69AE /* UIKit.framework */,
+				D424DF9416AE28A000BF69AE /* Foundation.framework */,
+				D424DF9616AE28A000BF69AE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D424DF9816AE28A000BF69AE /* Leaf Crunch */ = {
+			isa = PBXGroup;
+			children = (
+				D424DFA116AE28A000BF69AE /* WAAppDelegate.h */,
+				D424DFA216AE28A000BF69AE /* WAAppDelegate.m */,
+				D424DFAA16AE28A000BF69AE /* WAViewController.h */,
+				D424DFAB16AE28A000BF69AE /* WAViewController.m */,
+				D424DF9916AE28A000BF69AE /* Supporting Files */,
+				D424DFC216AE291400BF69AE /* Util.h */,
+				D424DFC316AE291400BF69AE /* Util.m */,
+				D424DFC616AE2C5200BF69AE /* GroundView.h */,
+				D424DFC716AE2C5200BF69AE /* GroundView.m */,
+				D424DFC916AE2E3F00BF69AE /* LeafView.h */,
+				D424DFCA16AE2E3F00BF69AE /* LeafView.m */,
+				D424DFCC16AE2FC200BF69AE /* LeafData.h */,
+				D424DFCD16AE2FC200BF69AE /* LeafData.m */,
+				D424DFD616AE54A600BF69AE /* ImageManager.h */,
+				D424DFD716AE54A600BF69AE /* ImageManager.m */,
+			);
+			path = "Leaf Crunch";
+			sourceTree = "<group>";
+		};
+		D424DF9916AE28A000BF69AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D424DF9A16AE28A000BF69AE /* Leaf Crunch-Info.plist */,
+				D424DF9B16AE28A000BF69AE /* InfoPlist.strings */,
+				D424DF9E16AE28A000BF69AE /* main.m */,
+				D424DFA016AE28A000BF69AE /* Leaf Crunch-Prefix.pch */,
+				D424DFA416AE28A000BF69AE /* Default.png */,
+				D424DFA616AE28A000BF69AE /* Default@2x.png */,
+				D424DFA816AE28A000BF69AE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D424DFD316AE546300BF69AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D49138FE16B272110064AA32 /* icon.png */,
+				D424DFD416AE546D00BF69AE /* leaf.png */,
+				D491390116B276F20064AA32 /* leaf2.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D424DF8D16AE28A000BF69AE /* Leaf Crunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D424DFB516AE28A000BF69AE /* Build configuration list for PBXNativeTarget "Leaf Crunch" */;
+			buildPhases = (
+				D424DF8A16AE28A000BF69AE /* Sources */,
+				D424DF8B16AE28A000BF69AE /* Frameworks */,
+				D424DF8C16AE28A000BF69AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Leaf Crunch";
+			productName = "Leaf Crunch";
+			productReference = D424DF8E16AE28A000BF69AE /* Leaf Crunch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D424DF8516AE28A000BF69AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WA;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Daniel Ho";
+			};
+			buildConfigurationList = D424DF8816AE28A000BF69AE /* Build configuration list for PBXProject "Leaf Crunch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D424DF8316AE28A000BF69AE;
+			productRefGroup = D424DF8F16AE28A000BF69AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D424DF8D16AE28A000BF69AE /* Leaf Crunch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D424DF8C16AE28A000BF69AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D424DF9D16AE28A000BF69AE /* InfoPlist.strings in Resources */,
+				D424DFA516AE28A000BF69AE /* Default.png in Resources */,
+				D424DFA716AE28A000BF69AE /* Default@2x.png in Resources */,
+				D424DFA916AE28A000BF69AE /* Default-568h@2x.png in Resources */,
+				D424DFD516AE546D00BF69AE /* leaf.png in Resources */,
+				D49138FF16B272110064AA32 /* icon.png in Resources */,
+				D491390216B276F20064AA32 /* leaf2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D424DF8A16AE28A000BF69AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D424DF9F16AE28A000BF69AE /* main.m in Sources */,
+				D424DFA316AE28A000BF69AE /* WAAppDelegate.m in Sources */,
+				D424DFAC16AE28A000BF69AE /* WAViewController.m in Sources */,
+				D424DFC416AE291400BF69AE /* Util.m in Sources */,
+				D424DFC816AE2C5200BF69AE /* GroundView.m in Sources */,
+				D424DFCB16AE2E3F00BF69AE /* LeafView.m in Sources */,
+				D424DFCE16AE2FC200BF69AE /* LeafData.m in Sources */,
+				D424DFD816AE54A600BF69AE /* ImageManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D424DF9B16AE28A000BF69AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D424DF9C16AE28A000BF69AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D424DFB316AE28A000BF69AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D424DFB416AE28A000BF69AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D424DFB616AE28A000BF69AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Leaf Crunch/Leaf Crunch-Prefix.pch";
+				INFOPLIST_FILE = "Leaf Crunch/Leaf Crunch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D424DFB716AE28A000BF69AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Leaf Crunch/Leaf Crunch-Prefix.pch";
+				INFOPLIST_FILE = "Leaf Crunch/Leaf Crunch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D424DF8816AE28A000BF69AE /* Build configuration list for PBXProject "Leaf Crunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D424DFB316AE28A000BF69AE /* Debug */,
+				D424DFB416AE28A000BF69AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D424DFB516AE28A000BF69AE /* Build configuration list for PBXNativeTarget "Leaf Crunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D424DFB616AE28A000BF69AE /* Debug */,
+				D424DFB716AE28A000BF69AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D424DF8516AE28A000BF69AE /* Project object */;
+}
